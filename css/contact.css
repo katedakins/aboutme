@@ -1,0 +1,49 @@
+#picture-me {
+    margin: 2.25rem 2rem 1rem 4rem;
+    width: 20rem;
+}
+
+.slide-header {
+    margin: 2rem 4rem 1rem -1rem;
+}
+
+.image {
+    width: 2rem;
+}
+
+.social-media {
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+ul {
+    columns: 2;
+    list-style-type: none;
+}
+
+.paragraph {
+    padding: 0;
+}
+
+li > a:focus,
+li > a:hover {
+    font-weight: 600;
+} 
+
+#tiktok-logo {
+    width: 2.1rem;
+}
+
+#github-logo {
+    width: 2.15rem;
+}
+
+.social-media:focus {
+    text-decoration: underline;
+}
+
+@media only screen and (min-device-width : 1224px) {
+    #picture-me {
+        margin: 2.25rem 2rem 1rem 6rem;
+    }
+}

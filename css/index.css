@@ -1,0 +1,194 @@
+.img-container, .slide {
+    font-family: 'Work Sans', sans-serif;
+}
+
+#picture-map {
+    margin: 2rem 5rem 0 5rem;
+    width: 50rem;
+}
+
+.image-container {
+    display: block;
+}
+
+.state-pin, .city-text {
+    color: #580000;
+    font-size: 1rem;
+    position: relative;
+}
+
+.slide-header, li > a, .state-text {
+    font-size: 1.25rem;
+}
+
+.slide-header, .state-text {
+    margin-bottom: .5rem;
+}
+
+.slide-header, .highlight, .state-text, .state {
+    color: #580000;
+}
+
+.slide-header, .state-text, .state-pin, .city-text {
+    font-weight: 700;
+}
+
+.slide-container {
+    margin: 0 5rem;
+    position: absolute;
+    width: 50rem;
+}
+
+.city-text, .pin {
+    display: inline-block;
+}
+
+.state-text {
+    text-decoration: underline;
+}
+
+.paragraph-slide-1 {
+    margin: 0 0 .5rem 0;
+}
+
+.texas {
+    left: 7.5rem;
+    top: -17rem;
+}
+
+.indiana {
+    left: 9rem;
+    top: -17.5rem;
+}
+
+.spain {
+    left: 14.75rem;
+    top: -18.25rem;
+}
+
+.colombia {
+    left: -5.5rem;
+    top: -12rem;
+}
+
+.button-scroll {
+    position: relative;
+    top: 7rem;
+}
+
+.button-left {
+    left: 2rem;
+}
+
+.button-right {
+    left: 55rem;
+}
+
+.col-md-6 {
+    max-width: 100% !important;
+}
+
+
+@media only screen and (min-device-width : 321px) {
+    /* good */
+}
+
+@media only screen and (min-device-width : 375px) {
+    /* good */
+}
+
+@media only screen and (min-device-width : 414px) {
+    /* good */
+}
+
+@media only screen and (min-device-width : 768px) {
+    .col-md-6 {
+        width: 50%;
+    }
+    
+    #picture-map {
+        width: 30rem;
+        margin: 2rem 5rem 0 0;
+    }
+
+    .slide-container {
+        margin: 1rem 0 0 2rem;
+        width: 25rem;
+    }
+
+    #picture-map {
+        width: 31.5rem;
+    }
+
+    .texas {
+        left: -.75rem;
+        top: -11rem;
+    }
+    
+    .indiana {
+        left: -.25rem;
+        top: -11.25rem;
+    }
+    
+    .spain {
+        left: 1.25rem;
+        top: -11.75rem;
+    }
+    
+    .colombia {
+        left: -15.25rem;
+        top: -8rem;
+    }
+
+    .button-left {
+        left: 0;
+    }
+
+    .button-right {
+        left: 26rem;
+    }
+}
+
+@media only screen and (min-device-width : 1224px) {
+    .slide-container {
+        width: 33rem;
+    }
+
+    #picture-map {
+        width: 38rem;
+    }
+
+    .texas {
+        left: .5rem;
+        top: -13rem;
+    }
+    
+    .indiana {
+        left: 1.25rem;
+        top: -13.25rem;
+    }
+    
+    .spain {
+        left: 4.25rem;
+        top: -14rem;
+    }
+    
+    .colombia {
+        left: -13.55rem;
+        top: -9.5rem;
+    }
+
+    .button-right {
+        left: 33.5rem;
+    }
+}
+
+@media only screen and (min-device-width : 1350px) {
+    .slide-container {
+        width: 36.5rem;
+    }
+
+    .button-right {
+        left: 37.5rem;
+    }
+}

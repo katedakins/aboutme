@@ -1,0 +1,105 @@
+header {
+    color: #580000;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: .25rem;
+    text-transform: lowercase;
+}
+
+.nav {
+    border-bottom: double .25rem #696969;
+    border-top: double .25rem #696969;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    text-align: center;
+    width: 10rem;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    background-color: #580000;
+    color: whitesmoke;
+}
+
+.active {
+    font-weight: 600;
+}
+
+.page-title {
+    font-size: 1.5rem;
+}
+
+.body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #580000;
+    outline: .1rem solid #580000;
+    color: whitesmoke;
+}
+
+a, a:hover, a:focus {
+    color: #580000;
+}
+
+a:focus {
+    outline: .1rem #580000;
+}
+
+.image-container {
+    display: block;
+}
+
+
+.slide-header, li > a, .state-text {
+    font-size: 1.25rem;
+}
+
+.slide-header, .state-text {
+    margin-bottom: .5rem;
+}
+
+.slide-header, .highlight, .state-text, .state {
+    color: #580000;
+}
+
+.slide-header, .state-text, .state-pin, .city-text {
+    font-weight: 700;
+}
+
+.paragraph {
+    color: #696969;
+    display: block;
+    margin: 0 0 1rem 1.5rem;
+}
+
+
+@media only screen and (min-device-width : 321px) {
+    /* good */
+}
+
+@media only screen and (min-device-width : 375px) {
+    /* good */
+}
+
+@media only screen and (min-device-width : 414px) {
+    /* good */
+}
+
+@media only screen and (min-device-width : 768px) {
+    /* good */
+}
+
+@media only screen and (min-device-width : 991px) {
+    /* good */   
+}
+
+@media only screen and (min-device-width : 1224px) {
+    /* good */
+}
