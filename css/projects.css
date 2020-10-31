@@ -1,7 +1,3 @@
-.slide-header {
-    margin: 1rem 3rem 1rem 1rem;
-}
-
 ul {
     color: #696969;
 }
@@ -17,4 +13,10 @@ ul {
 
 .social-media-text {
     margin-right: 1rem;
+}
+
+@media only screen and (min-device-width : 1200px) { 
+    .list-projects {
+        columns: 2;
+    }
 }

@@ -25,12 +25,15 @@
 
   <body> 
     <div class="container-fluid">
+      <div class="page-header">
+        Hello! My name is <span class="highlight">Kate Akins.</span>
+      </div>
       <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="col-xs-12 col-xl-6">
           <div class="img-container">
             <img src="./images/map.svg" alt="picture of the world map" class="image d-flex justify-content-center" id="picture-map">
             <div class="states">
-              <a tabindex="0" class="texas state-pin" role="button" onClick="goToSlide('texas')" onkeydown="goToSlideKeyDown(event, 'texas')">Austin, Texas📍 </a>
+              <a tabindex="0" class="texas state-pin" role="button" onClick="goToSlide('texas')" onkeydown="goToSlideKeyDown(event, 'texas')">Austin, 📍<br>Texas </a>
               <a tabindex="0" class="indiana state-pin" role="button" onClick="goToSlide('indiana')" onkeydown="goToSlideKeyDown(event, 'indiana')">📍 Indiana</a>
               <a tabindex="0" class="spain state-pin" role="button" onClick="goToSlide('spain')" onkeydown="goToSlideKeyDown(event, 'spain')">📍 Ciudad Real, Spain</a>
               <a tabindex="0" class="colombia state-pin" role="button" onClick="goToSlide('colombia')" onkeydown="goToSlideKeyDown(event, 'colombia')">📍 Cali, Colombia</a>
@@ -38,16 +41,14 @@
           </div>
         </div>
 
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="col-xs-12 col-xl-6">
           <div class="slide-container">
             <!-- slide 1 -->
             <div class="slide about-me-text">
-                <div class="slide-header">
-                  Hello! My name is <span class="highlight">Kate Akins.</span>
-                </div>
-                <div class="paragraph paragraph-slide-1">
-                  I am a <span class="highlight">Front-End Software Developer</span>.
-                  Click on the arrows or pins to view my experience and education around the world.
+              <div class="slide-header">About Me</div>
+              <div class="paragraph paragraph-slide-1">
+                I am a <span class="highlight">Front-End Software Developer</span>.
+                Click on the arrows or pins to view my experience and education around the world.
               </div>
               <div class="paragraph paragraph-slide-1">
                 I grew up in <span class="state">Columbus, Indiana</span> and lived there until college.
@@ -70,7 +71,7 @@
 
             <!-- slide 2 -->
             <div class="slide hidden" id="indiana-text">
-              <div class="state-text">Indiana</div>
+              <div class="slide-header">Indiana</div>
                 <div class="city-text">📍 Columbus, Indiana</div>
                 <div class="paragraph">
                   I moved to <span class="highlight">Columbus, Indiana</span> when I was 2 years old and lived there
@@ -96,7 +97,7 @@
 
             <!-- slide 3 -->
             <div class="slide hidden" id="spain-text">
-              <div class="state-text">Spain</div>
+              <div class="slide-header">Spain</div>
               <div class="city-text">📍 Ciudad Real, Spain</div>
               <div class="paragraph">
                 In the summer of 2013, the summer before my senior year of high school, I studied abroad in
@@ -114,7 +115,7 @@
 
             <!-- slide 4 -->
             <div class="slide hidden" id="colombia-text">
-              <div class="state-text">Colombia</div>
+              <div class="slide-header">Colombia</div>
               <div class="city-text">📍 Cali, Colombia</div>
               <div class="paragraph">
                 In the summer of 2017, I interned with a start-up beauty company called <span class="highlight">Zue Beauty</span>.
@@ -130,7 +131,7 @@
 
             <!-- slide 5 -->
             <div class="slide hidden" id="texas-text">
-              <div class="state-text">Texas</div>
+              <div class="slide-header">Texas</div>
               <div class="city-text">📍 Austin, Texas</div>
               <div class="paragraph">
                 I moved to <span class="highlight">Austin, Texas</span> to begin my career at <span class="highlight">General

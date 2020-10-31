@@ -13,28 +13,19 @@
 
 .state-pin, .city-text {
     color: #580000;
-    font-size: 1rem;
     position: relative;
 }
 
-.slide-header, li > a, .state-text {
-    font-size: 1.25rem;
+.state-pin {
+    font-size: 2.25rem;
 }
 
-.slide-header, .state-text {
-    margin-bottom: .5rem;
-}
-
-.slide-header, .highlight, .state-text, .state {
-    color: #580000;
-}
-
-.slide-header, .state-text, .state-pin, .city-text {
-    font-weight: 700;
+.city-text {
+    font-size: 2.10rem;
 }
 
 .slide-container {
-    margin: 0 5rem;
+    margin: -7rem 0 0 5rem;
     position: absolute;
     width: 48rem;
 }
@@ -43,51 +34,47 @@
     display: inline-block;
 }
 
-.state-text {
-    text-decoration: underline;
-}
-
 .paragraph-slide-1 {
     margin: 0 0 .5rem 0;
 }
 
 .texas {
-    left: 7.5rem;
-    top: -17rem;
+    left: 5rem;
+    top: -18rem;
 }
 
 .indiana {
     left: 9rem;
-    top: -17.5rem;
+    top: -22.5rem;
 }
 
 .spain {
-    left: 13.75rem;
-    top: -18.25rem;
+    left: 9.25rem;
+    top: -23.25rem;
 }
 
 .colombia {
-    left: -6.5rem;
-    top: -12rem;
+    left: 17rem;
+    top: -20rem;
+    white-space: nowrap;
 }
 
 .button-scroll {
     position: relative;
-    top: 7rem;
+    top: 10rem;
 }
 
 .button-left {
-    left: 2rem;
+    left: 1rem;
 }
 
 .button-right {
-    left: 50rem;
+    left: 52rem;
 }
 
 .col-md-6 {
     max-width: 100% !important;
 }
-
 
 @media only screen and (min-device-width : 321px) {
     /* good */
@@ -102,42 +89,37 @@
 }
 
 @media only screen and (min-device-width : 768px) {
-    .col-md-6 {
-        width: 50%;
-    }
-    
     #picture-map {
-        width: 30rem;
+        width: 60rem;
         margin: 2rem 5rem 0 0;
     }
 
     .slide-container {
-        margin: 1rem 0 0 2rem;
-        width: 25rem;
-    }
-
-    #picture-map {
-        width: 31.5rem;
+        width: 50rem;
     }
 
     .texas {
-        left: -.75rem;
-        top: -11rem;
+        left: 2.25rem;
+        top: -22rem;
     }
     
     .indiana {
-        left: -.25rem;
-        top: -11.25rem;
+        left: 6.75rem;
+        top: -25.75rem;
     }
     
     .spain {
-        left: 1.25rem;
-        top: -11.75rem;
+        left: 8.25rem;
+        top: -26.75rem;
     }
     
     .colombia {
-        left: -15.25rem;
-        top: -8rem;
+        left: 15.5rem;
+        top: -22rem;
+    }
+
+    .button-scroll {
+        top: 15;
     }
 
     .button-left {
@@ -145,41 +127,67 @@
     }
 
     .button-right {
-        left: 26rem;
+        left: 55rem;
     }
 }
 
-@media only screen and (min-device-width : 1224px) {
+
+@media only screen and (min-device-width : 991px) {
+    .colombia {
+        left: -27rem;
+        top: -18rem;
+    } 
+}
+
+
+@media only screen and (min-device-width : 1200px) {
     .slide-container {
-        width: 33rem;
+        margin: 0 0 0 2.5rem;
+        width: 32rem;
+    }
+
+    .paragraph {
+        margin: 0 0 1rem 2.5rem;
+    }
+
+    .paragraph-slide-1 {
+        margin: 0 0 .5rem 0;
     }
 
     #picture-map {
         width: 38rem;
     }
 
+    .state-pin {
+        font-size: 1.75rem;
+    }
+    
+    .city-text {
+        font-size: 1.6rem;
+    }
+
     .texas {
-        left: .5rem;
-        top: -13rem;
+        left: .25rem;
+        top: -13.5rem;
     }
     
     .indiana {
-        left: 1.25rem;
-        top: -13.25rem;
+        left: 3rem;
+        top: -17rem;
     }
     
     .spain {
-        left: 4.25rem;
-        top: -14rem;
+        left: 2.5rem;
+        top: -17.5rem;
     }
     
     .colombia {
-        left: -13.55rem;
-        top: -9.5rem;
+        left: 9.5rem;
+        top: -15.5rem;
     }
 
     .button-right {
-        left: 33.5rem;
+        left: 33rem;
     }
 }
 

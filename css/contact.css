@@ -1,14 +1,14 @@
-#picture-me {
-    margin: 2.25rem 2rem 1rem 4rem;
-    width: 20rem;
-}
-
-.slide-header {
-    margin: 2rem 4rem 1rem -1rem;
+#picture-me, #picture-kittens {
+    margin: 0 2rem 1rem 2rem;
+    width: 25rem;
 }
 
 .image {
     width: 2rem;
+}
+
+.contact-info {
+    margin-left: -5rem;
 }
 
 .social-media {
@@ -16,8 +16,7 @@
     margin-bottom: 1.5rem;
 }
 
-ul {
-    columns: 2;
+.list-contact {
     list-style-type: none;
 }
 
@@ -25,8 +24,12 @@ ul {
     padding: 0;
 }
 
-li > a:focus,
-li > a:hover {
+.list-contact > li {
+    margin-left: -2rem;
+}
+
+.list-contact > li > a:focus,
+.list-contact > li > a:hover {
     font-weight: 600;
 } 
 
@@ -42,8 +45,20 @@ li > a:hover {
     text-decoration: underline;
 }
 
-@media only screen and (min-device-width : 1224px) {
-    #picture-me {
-        margin: 2.25rem 2rem 1rem 6rem;
+@media only screen and (min-device-width : 1200px) {
+    .contact-info {
+        margin-left: 5rem;
+    }
+    
+    .list-contact {
+        columns: 3;
+    }
+
+    .list-contact > li {
+        margin: auto;
+    }
+
+    .contact-info-kitten {
+        margin-top: 16rem;
     }
 }
