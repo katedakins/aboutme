@@ -25,9 +25,9 @@
 }
 
 .slide-container {
-    margin: -7rem 0 0 5rem;
+    margin: -7rem 0 0 7rem;
     position: absolute;
-    width: 48rem;
+    width: 45rem;
 }
 
 .city-text, .pin {
@@ -49,12 +49,12 @@
 }
 
 .spain {
-    left: 9.25rem;
+    left: 8.5rem;
     top: -23.25rem;
 }
 
 .colombia {
-    left: 17rem;
+    left: 17.5rem;
     top: -20rem;
     white-space: nowrap;
 }
