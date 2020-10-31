@@ -27,7 +27,7 @@
 .slide-container {
     margin: -7rem 0 0 7rem;
     position: absolute;
-    width: 45rem;
+    width: 43rem;
 }
 
 .city-text, .pin {
@@ -95,7 +95,7 @@
     }
 
     .slide-container {
-        width: 48rem;
+        width: 50rem;
     }
 
     .texas {
