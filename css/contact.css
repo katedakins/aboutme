@@ -3,6 +3,10 @@
     width: 25rem;
 }
 
+#picture-kittens {
+    margin-top: 2.5rem;
+}
+
 .image {
     width: 2rem;
 }
@@ -41,6 +45,12 @@
     text-decoration: underline;
 }
 
+@media only screen and (min-device-width: 768px) {
+    #picture-kittens {
+        margin-top: 2rem;
+    }
+}
+
 @media only screen and (min-device-width : 1200px) {
     .contact-info {
         margin-left: 5rem;
@@ -56,5 +66,9 @@
 
     .contact-info-kitten {
         margin-top: 16rem;
+    }
+
+    #picture-kittens {
+        margin-top: 0;
     }
 }
