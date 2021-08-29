@@ -1,6 +1,6 @@
-# aboutme
+# About Me Website
 
-This project is a website that demonstrates some of the development skills I've learned over my time being a Software Developer.
+This project is a website that demonstrates the development skills I've learned as a Software Developer.
 
 To run page locally:
 1. Clone repo: https://github.com/katedakins/aboutme.git.
