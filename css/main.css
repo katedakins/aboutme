@@ -22,14 +22,22 @@ header {
     text-align: center;
 }
 
-.nav-link:focus,
-.nav-link:hover {
+.active {
     background-color: #580000;
     color: whitesmoke;
 }
 
-.active {
-    font-weight: 700;
+a:hover,
+a:focus,
+.nav-link:hover,
+.nav-link:focus {
+    text-decoration: underline;
+}
+
+.nav-link:hover.active,
+.nav-link:focus.active {
+    background-color: #580000;
+    color: whitesmoke;
 }
 
 .page-header {
