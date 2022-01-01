@@ -70,7 +70,6 @@ a:focus {
 
 .slide-header {
     margin-bottom: .5rem;
-    text-decoration: underline;
 }
 
 .page-header, .nav-item > a, .slide-header {
@@ -81,7 +80,7 @@ a:focus {
     color: #580000;
 }
 
-.page-header, .slide-header, .state-pin, .city-text {
+.page-header, .slide-header, .state-pin, .slide-subheader {
     font-weight: 700;
 }
 

@@ -1,3 +1,7 @@
+.index-body {
+    margin-top: 1rem;
+}
+
 .img-container, .slide {
     font-family: 'Work Sans', sans-serif;
 }
@@ -11,7 +15,7 @@
     display: block;
 }
 
-.state-pin, .city-text {
+.state-pin, .slide-subheader {
     color: #580000;
     position: relative;
 }
@@ -20,7 +24,7 @@
     font-size: 2.25rem;
 }
 
-.city-text {
+.slide-subheader {
     font-size: 2.10rem;
 }
 
@@ -30,12 +34,8 @@
     width: 43rem;
 }
 
-.city-text, .pin {
+.slide-subheader, .pin {
     display: inline-block;
-}
-
-.paragraph-slide-1 {
-    margin: 0 0 .5rem 0;
 }
 
 .texas {
@@ -69,7 +69,7 @@
 }
 
 .button-right {
-    left: 48rem;
+    left: 52rem;
 }
 
 .col-md-6 {
@@ -119,11 +119,11 @@
     }
 
     .button-scroll {
-        top: 15;
+        top: 10rem;
     }
 
     .button-left {
-        left: 0;
+        left: 3rem;
     }
 
     .button-right {
@@ -134,8 +134,8 @@
 
 @media only screen and (min-device-width : 991px) {
     .colombia {
-        left: -27rem;
-        top: -18rem;
+        left: 15rem;
+        top: -22rem;
     } 
 }
 
@@ -143,15 +143,12 @@
 @media only screen and (min-device-width : 1200px) {
     .slide-container {
         margin: 0 0 0 2.5rem;
+        padding-right: 1rem;
         width: 32rem;
     }
 
     .paragraph {
         margin: 0 0 1rem 2.5rem;
-    }
-
-    .paragraph-slide-1 {
-        margin: 0 0 .5rem 0;
     }
 
     #picture-map {
@@ -162,8 +159,8 @@
         font-size: 1.75rem;
     }
     
-    .city-text {
-        font-size: 1.6rem;
+    .slide-subheader {
+        font-size: 1.5rem;
     }
 
     .texas {
@@ -186,17 +183,25 @@
         top: -15.5rem;
     }
 
+    .button-left {
+        left: 1rem;
+    }
+
     .button-right {
-        left: 33rem;
+        left: 32rem;
     }
 }
 
 @media only screen and (min-device-width : 1350px) {
-    .slide-container {
-        width: 36.5rem;
+    .button-right {
+        left: 37rem;
     }
 
-    .button-right {
-        left: 37.5rem;
+    #picture-map {
+        margin-right: 50rem;
+    }
+
+    .slide-container {
+        width: 35rem;
     }
 }
