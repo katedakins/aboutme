@@ -194,7 +194,7 @@
 
 @media only screen and (min-device-width : 1350px) {
     .button-right {
-        left: 37rem;
+        left: 50rem;
     }
 
     #picture-map {
@@ -202,6 +202,11 @@
     }
 
     .slide-container {
-        width: 35rem;
+        width: 48rem;
+    }
+
+    .colombia {
+        left: -23rem;
+        top: -13rem;
     }
 }
